@@ -1,0 +1,80 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+.title {
+    visibility: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.avatar {
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 2px #2760A0 solid;
+}
+
+#name {
+    font-size: 25px;
+    /* margin: 0; */
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+/* .container {
+    margin-left: 50px;
+    margin-top: 140px;
+} */
+
+.line-top {
+    background-color: #1277E8;
+    color: #fff;
+    padding: 32px;
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #1277E8;
+}
+
+#a-info {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    top: 100px;
+    
+}
+
+#titulos {
+    background-color: #1277E8;
+    border-radius: 5px;
+    color:#fff;
+    border: 5px;
+}
+
+#name, #habilidades {
+    margin-left: 30px;
+    margin-right: 0;
+    max-width: 250px;
+    padding: 0;
+    display: inline;
+}
