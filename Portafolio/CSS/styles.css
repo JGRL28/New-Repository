@@ -1,0 +1,118 @@
+
+/*          fuentes que se utilizaran                       */
+/*          font-family: 'Bricolage Grotesque', sans-serif;
+            font-family: 'Montserrat', sans-serif;               */
+
+
+
+/* Colores en variables que se usan en la pagina*/
+:root {
+    /* --colorBackground: #E0E1E6;
+    --colorBackground2: #CDCDD4; */
+    --colorBackground2: #464684;
+    --colorBackground: #535393;
+    --color: #129C09;
+    --color2: #52C8E6;
+    --color3: #7CB0EB;
+    --color4: #CB60D3;
+    --color5: #EF711D;
+    --color6: #F37D7D;
+
+}
+body {
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--colorBackground);
+}
+
+
+header {
+    background-color: var(--colorBackground2);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    height: 4.5rem;
+    width: 100%;
+}
+
+img#isotipo {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    padding: 1rem 1rem 1rem 4rem;
+}
+
+header > div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header > div > a {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--color5);
+}
+
+/* ********* hasta acá el header **********     */
+    
+section#Welcome-section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color3);
+    padding: 5rem;
+    padding-bottom: 0;
+}
+
+section > img {
+    margin: 0.7rem;
+    border-radius: 50%;
+    border: solid 10px;
+}
+
+section > h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color5);
+}
+
+section > p {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color4);
+}
+
+/* ********************hasta acá el welcome ******************* */
+
+hr {
+    width: 50%;
+    margin-top: 5rem;
+}
+
+div#info-p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: var(--color4);
+    font-size: 2rem;
+}
+
+div#info-p > p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align:justify;
+    font-size: 1.3rem;
+}
+
+/* ********************hasta acá Info ******************* */
+section#Skills {
+    display: grid;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
